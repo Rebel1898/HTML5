@@ -1,0 +1,71 @@
+/*p{
+color: red;
+text-align: left;
+font-size: 31px;
+font-style: italic;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This is a single-line comment */
+
+body {
+        background-image: url("IMG/login.jpg");
+        background-repeat: repeat-0;
+        background-attachment: fixed;
+        border: 5px solid chartreuse;
+    }
+
+
+    h1{
+        color: black;
+        font-size: 80px;
+        font-family: fantasy;
+
+
+    }
+
+    
+header {
+    width: 300px;
+    border: 2px dotted black;
+    
+    
+    }
+
+header div{
+width: 300px;
+border: 2px solid blue;
+
+
+}
+
+
+    header img
+    {
+        width: 100%;
+    }
+
+p.rojo{
+color: red;
+}
+.bordeado{border:2px solid blue; }
+
+p.blue{
+
+
+    color: blueviolet;
+}
+/*article p {
+width: 250px;
+color: yellow;
+padding: 10px;
+margin: 54px;
+  }
+*/
+footer{
+border: 5px solid orangered;
+
+}
+
+
+
