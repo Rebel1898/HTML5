@@ -49,3 +49,43 @@ div
         right: 2225px;
         
 }
+
+button{
+    border-radius:0px 150px 0px 150px;
+    height: 300px;
+    width: 300px;
+    position: absolute ;
+    top: 30px;
+    background: #e7a61a;}
+
+
+
+    @font-face {
+        font-family: 'ardestine';
+        src: url('ARDESTINE.ttf');
+       unicode-range: U+00-52F, U+1E00-1FFF, U+2200–22FF;
+      }
+
+
+      p{
+        font-family: Mon;
+        font-size: 30px;
+
+      }
+
+
+      @font-face {
+        font-family: 'Book';
+        src: url('OLDENGL.TTF');
+       unicode-range: U+00-52F, U+1E00-1FFF, U+2200–22FF;
+      }
+
+
+      @font-face {
+
+        font-family: "Mon";
+     
+        src: url('1.woff2') format('woff2');
+     
+     
+        }
