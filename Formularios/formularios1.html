@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Registrate</title>
+</head>
+<body>
+   <h1>Registrate</h1> <p style="font-size:40px;">El imperio te necesita.</p>
+  <!----> 
+  
+ 
+   <article>
+
+
+<form  method="POST" action="receptionform.html" >
+
+    <label for="nombre:">Nombre<br></label>
+    <input type="text" name="nombre" placeholder="Introduce tu nombre" required maxlength="25" minlength="6">
+
+    <label for="email"><br>Email<br></label>
+    <input type="email" name="email"placeholder="say your  mail" required>
+  
+    <label for="telefono"> <br>Edad<br></label>
+    <input type="tel" placeholder="edad" min=14 max=65> 
+    <!--Registro solo para mayores de 14 y menores de 65
+    
+    
+    -->
+    <label for="pass"> <br>Confirme su P.A.C<br></label>
+    <input type="password" placeholder="password"  pattern=".{8,12}" required title="8 to 12 characters">
+
+
+    <label for="DNI"> <br>Numero de ciudadania<br></label>
+    <input type="password" placeholder="dni"  pattern=".{8,12}" required title="8 to 12 characters">
+   
+   
+    <br>
+    <div>
+            <label for="sexo"><br>Sexo</label>
+            <input id="m" name="sexo" type="radio" >Varón
+            <input id="f" name="sexo" type="radio" >Mujer
+        
+
+
+    </div>
+   
+
+    <div>
+        <h3>¿Tienes experiencia de combate?</h3>
+        <label for="color">Sí</label>
+        <input type="checkbox" name="color" id="rojo" value="m">
+        <label for="color">No</label>
+        <input type="checkbox" name="color" id="azul" value="4">
+    </div>
+
+    <div><label for="textito"><br>En caso positivo, indicanos tu experiencia <br></label>
+        <textarea name="textito" id="cuentame" required maxlength="542000" > </textarea>
+        
+
+    <label for="pais"><br>pais<br></label>
+
+   <!--  <input type="select" name="pais">             --> 
+
+    <select name="pais" id="pais"><br>pais<br>
+    <option value="132"> Noruega</option>
+    <option value="142">Spain</option>
+    <option value="153">Fililistan occidental</option>
+</select>
+
+
+<hr>
+    <div style="border:solid black;"><button><a>Registrate</a> </button></div>
+
+</div>
+
+
+
+
+
+
+
+
+</form>
+
+
+</body>
+</html>

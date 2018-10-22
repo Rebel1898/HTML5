@@ -1,0 +1,78 @@
+
+   
+    div{
+        font-size: 30px;
+        background: rgb(36, 35, 35);
+        color: white;
+        border-radius: 25px;
+        
+    }
+    
+    h1{
+        display: block;
+        margin-left: 650px;
+    }
+
+    .joder{
+        width: 800px;
+        margin-left: 400px;;
+        border-radius: 25px;
+        height: 30px;
+        background-image: url("1.jpg");
+        background-repeat: no-repeat;
+        background-size: 30px;    
+        padding-left: 50px;
+    }
+    .joder2{
+        width: 800px;
+        margin-left: 400px;;
+        border-radius: 25px;
+        height: 30px;
+        background-image: url("phn.png");
+        background-repeat: no-repeat;
+        background-size: 30px;    
+        padding-left: 50px;
+    }
+    .joder3{
+        width: 800px;
+        margin-left: 400px;;
+        border-radius: 25px;
+        height: 30px;
+        background-image: url("envelope.png");
+        background-repeat: no-repeat;
+        background-size: 30px;    
+        padding-left: 50px;
+    }
+    .joder4{
+        width: 800px;
+        margin-left: 400px;;
+        border-radius: 25px;
+        height: 30px;
+        background-image: url("lock.png");
+        background-repeat: no-repeat;
+        background-size: 30px;    
+        padding-left: 50px;
+    }
+
+
+    section{
+margin-left:500px;
+
+    }
+
+    span a{
+        text-underline-position: below;
+        color: green;
+
+
+    }
+
+    button{
+        background-color: green;
+        margin-left:1100px;
+        width: 400px;
+        height: 60px;
+        color: white;
+        font-size: 40px;
+        border-radius: 25px;
+    }

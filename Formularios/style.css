@@ -1,0 +1,45 @@
+article{
+
+display: inline-block;
+
+
+}
+
+body{
+    font-family: "ardestine";
+    align-content: center;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+#pep{
+display: absolute;
+margin-left: 20px;
+
+
+}
+
+label{
+    width: 200px;
+}
+
+input{
+
+    type:email;
+}
+
+h1{
+font-size:80px;
+
+}
+@font-face {
+    font-family: 'ardestine';
+    src: url('1.ttf');
+   unicode-range: U+00-52F, U+1E00-1FFF, U+2200–22FF;
+  }
+
+  #cuentame{
+
+width: 700px;
+height: 120px;
+  }

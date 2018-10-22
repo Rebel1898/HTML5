@@ -1,0 +1,50 @@
+
+header{display: inline-block;}
+#A{
+    display: inline-block;
+    width: 200px;
+    background-color: violet;
+}
+
+#B{
+    display: inline-block;
+    width: 400px;
+    background-color:orange;
+}
+
+.C{
+display: inline-block;
+width: 200px;
+height: 100px;
+background-color: aqua;
+}
+
+#F{
+    display: inline-block;
+    width: 600px;
+    background-color: black;
+    height: 150px;
+
+}
+
+
+
+#G{
+    display: inline-block;
+    width: 600px;
+    height: 150px;
+    background-color: red;
+
+}
+
+
+@media screen and (max-width:360px){
+
+
+    header>div {width:100%};
+    header>nav {width:100%};
+    section>div {width:100%};
+
+}
+/* Hay que llenar tantos media como dispositivos a los que se quiera dar servicio. Atender al punto de corte de resolucion de cada dispositivo para ajustar max-width: en @media*/
+
