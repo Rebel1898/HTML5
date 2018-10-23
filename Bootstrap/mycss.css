@@ -1,0 +1,30 @@
+
+header{display: inline-block;}
+#A{
+    display: inline-block;
+    background-color: violet;
+}
+
+#B{
+    display: inline-block;
+    background-color:orange;
+}
+
+.C{
+display: inline-block;
+background-color: aqua;
+}
+
+#F{
+    display: inline-block;
+    background-color: black;
+    
+}
+
+
+
+#G{
+    display: inline-block;
+    background-color: red;
+
+}
